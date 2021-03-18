@@ -1,0 +1,53 @@
+h2 {
+  font-family: 'Brandon Grotesque', sans-serif;
+  color: rgb(255, 102, 0);
+  text-align: center;
+}
+
+body {
+  font-family: 'Brandon Grotesque', sans-serif;
+  font-weight: 500;
+  font-size: 6pt;
+  margin-left: 40%;
+  margin-right: 40%;
+  text-transform: uppercase;
+}
+
+div {
+  padding-bottom: 5px;
+}
+
+.txtInput {
+  width: 100%;
+  padding: 5px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: lightgray;
+  font-size: 8pt;
+}
+
+label {
+  padding-left: 10px;
+}
+
+select {
+  width: 100%;
+  background-color: rgb(236, 235, 235);
+  padding: 7px 0 7px 0;
+  border-radius: 4px;
+  font-size: 8pt;
+}
+
+.submitButton {
+  float: right;
+  text-transform: uppercase;
+  font-family: 'AtlasGrotesk', sans-serif;
+  font-weight: bold;
+  font-size: 7pt;
+  padding: 5px 10px;
+  border-style: solid;
+  border-color: orangered;
+  border-radius: 20px;
+  background-color: orangered;
+  color: white;
+}
