@@ -7,7 +7,7 @@ console.log('Type of Area:', typeof area);
 
 var bill = 4;
 var payment = 5;
-var change = bill * payment;
+var change = payment - bill;
 
 console.log('Value of Change:', change);
 console.log('Type of Change:', typeof change);
@@ -39,7 +39,8 @@ var isSparta = headCount === 300;
 console.log('Value of isSparta:', isSparta);
 console.log('Type of isSparta:', typeof isSparta);
 
-var motto = fullName + ' is the GOAT';
+var motto = fullName;
+motto += ' is the GOAT';
 
 console.log('Value of motto:', motto);
 console.log('Type of motto:', typeof motto);
