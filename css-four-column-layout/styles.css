@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Barlow', sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 1200px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  align-items: baseline;
+}
+
+.col-fourth {
+  width: 25%;
+}
+
+.screen {
+  text-align: center;
+}
+
+.screen-image {
+  height: 400px;
+}
+
+.image {
+  height: 80px;
+}
+
+.content {
+  padding-top: 20px;
+}
