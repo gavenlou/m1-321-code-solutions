@@ -35,3 +35,7 @@ h1 {
 .image {
   height: 80px;
 }
+
+.content {
+  padding-top: 20px;
+}
