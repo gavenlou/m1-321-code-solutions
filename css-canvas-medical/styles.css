@@ -57,16 +57,17 @@ nav {
 }
 
 .navlinks > button {
-  background-color: rgb(29, 66, 146);
+  background-color: rgba(41, 68, 100, 255);
   color: white;
   padding: 10px;
   border-radius: 5%;
-  border: 1px solid rgb(29, 66, 146);
+  border: 1px solid rgba(41, 68, 100, 255);
 }
 
 .home {
   background-image: url(images/hero.jpg);
   background-size: cover;
+  height: 650px;
   margin-top: 75px;
   margin-bottom: 75px;
 }
@@ -83,7 +84,7 @@ img {
 
 .home-text {
   padding: 50px 0 50px 0;
-  width: 41%;
+  width: 46.6%;
   position: relative;
   left: 75px;
   color: white;
@@ -91,6 +92,7 @@ img {
 
 .home-heading {
   font-weight: 300;
+  font-size: 36pt;
 }
 
 .home-content {
@@ -98,15 +100,16 @@ img {
   line-height: 1.5em;
   font-weight: 100;
   color: rgb(235, 235, 235);
+  font-size: 16pt;
 }
 
 .home-button {
-  background-color: rgb(29, 66, 146);
+  background-color: rgba(41, 68, 100, 255);
   color: white;
   margin-top: 10px;
   padding: 15px 50px;
   border-radius: 5%;
-  border: 1px solid rgb(29, 66, 146);
+  border: 1px solid rgba(41, 68, 100, 255);
 }
 
 .overlay {
@@ -155,12 +158,12 @@ img {
 }
 
 .bottom-button {
-  background-color: rgb(29, 66, 146);
+  background-color: rgba(41, 68, 100, 255);
   color: white;
   margin-top: 10px;
   padding: 15px 50px;
   border-radius: 5%;
-  border: 1px solid rgb(29, 66, 146);
+  border: 1px solid rgba(41, 68, 100, 255);
   position: absolute;
   right: 10px;
   top: 15px;
@@ -172,4 +175,9 @@ img {
 
 .line-height {
   line-height: 20px;
+}
+
+.clinic {
+  width: 900px;
+  margin: auto;
 }
