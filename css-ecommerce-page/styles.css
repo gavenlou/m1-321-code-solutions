@@ -1,0 +1,56 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+}
+
+.container {
+  width: 1300px;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+}
+
+.col-fifth {
+  width: 20%;
+}
+
+.picture {
+  text-align: center;
+}
+
+.picture > img {
+  height: 350px;
+  max-width: 100%;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.grey {
+  border-left: 1px solid lightgrey;
+  padding-left: 5px;
+  font-weight: normal;
+  color: lightgrey;
+}
+
+del {
+  font-weight: normal;
+  color: lightgrey;
+}
+
+.price {
+  background-color: rgba(255, 242, 231, 255);
+  font-weight: bold;
+  border-radius: 20%;
+  padding: 0 3px;
+}
