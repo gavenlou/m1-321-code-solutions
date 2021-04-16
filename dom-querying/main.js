@@ -1,13 +1,16 @@
 console.log('hello, world');
 
-console.log(document.querySelector('h1'));
-console.dir(document.querySelector('h1'));
+var h1 = document.querySelector('h1');
+console.log(h1);
+console.dir(h1);
 
-console.log(document.querySelector('#explanation'));
-console.dir(document.querySelector('#explanation'));
+var explanation = document.querySelector('#explanation');
+console.log(explanation);
+console.dir(explanation);
 
-console.log(document.querySelector('.hint'));
-console.dir(document.querySelector('.hint'));
+var hint = document.querySelector('.hint');
+console.log(hint);
+console.dir(hint);
 
 console.log(document.querySelectorAll('p'));
 
