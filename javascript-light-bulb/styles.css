@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+}
+
+.light {
+  background-color: yellow;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  box-shadow: 4px 4px 10px rgb(230, 170, 91);
+}
+
+.dark {
+  background-color: white;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  top: -25px;
+  left: -25px;
+  box-shadow: 4px 4px 10px grey;
+}
+
+.day {
+  background-color: rgb(72, 182, 255);
+}
+
+.night {
+  background-color: rgb(20, 13, 24);
+}
