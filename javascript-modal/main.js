@@ -9,5 +9,7 @@ function toggle(state) {
     case 'off':
       modal.className = 'hidden none';
       break;
+    default:
+      // do nothing
   }
 }
