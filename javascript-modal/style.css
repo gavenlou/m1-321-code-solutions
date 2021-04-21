@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+h2 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.openModal {
+  color: white;
+  background-color: rgb(57, 57, 230);
+  padding: 4px 20px;
+  font-size: 14pt;
+  border: solid 2px rgb(57, 57, 230);
+  border-radius: 4px;
+  box-shadow: 0 1px 5px black;
+}
+
+.closeModal {
+  color: white;
+  font-size: 14pt;
+  padding: 5px 30px;
+  background-color: lightcoral;
+  border: solid 2px lightcoral;
+  border-radius: 4px;
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.block {
+  display: block;
+}
+
+.none {
+  display: none;
+}
+
+.hidden {
+  padding: 30px 30px;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 4px;
+  box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.7);
+}
