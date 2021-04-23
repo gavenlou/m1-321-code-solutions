@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.content {
+  font-size: 36pt;
+  font-family: monospace, 'arial';
+}
+
+.current {
+  border-bottom: 4px solid black;
+}
+
+.correct {
+  color: rgb(30, 184, 30);
+}
+
+.incorrect {
+  color: red;
+  border-bottom: 4px solid red;
+}
+
+.modal {
+  display: none;
+  z-index: 1;
+  padding-top: 100px;
+  background-color: rgb(0, 0, 0, 0.7);
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+}
+
+.modal-content {
+  background-color: rgb(156, 156, 156);
+  width: 150px;
+  margin: auto;
+  padding: 30px 30px;
+  border-radius: 8px;
+}
