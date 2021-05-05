@@ -100,7 +100,6 @@ function cardWar(players, handSize) {
     }
     console.log(tieMessage);
     winner = cardWar(tied, handSize);
-    console.log(winner + ' won!');
   }
 
   for (var data of $playerList) {
@@ -108,7 +107,10 @@ function cardWar(players, handSize) {
       data.className = 'column won';
     } else data.className = 'column lost';
   }
-  return winner;
+  if (tie) return winner;
+  else {
+    console.log(winner + ' won!');
+  }
 }
 
 function renderPlayer(player, handSize) {
