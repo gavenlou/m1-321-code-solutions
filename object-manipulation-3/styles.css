@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  width: 1500px;
+  margin: auto;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.column {
+  width: 15%;
+  margin: auto;
+  border: 2px solid black;
+  margin-bottom: 20px;
+}
+
+.name {
+  font-size: 18pt;
+  text-decoration: underline;
+}
+
+.won {
+  background-color: rgb(7, 167, 7);
+  color: white;
+}
+
+.lost {
+  background-color: rgb(209, 71, 71);
+}
